@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <h1>To-Do List</h1>
+        <form>
+          <input
+            title="Title"
+            placeholder="Task Title"
+            id="title"
+            type="text"
+            required
+          />
+          <textarea
+            title="Description"
+            placeholder="Task Description"
+            id="description"
+            required
+          ></textarea>
+          <button type="submit" id="submitBtn">Add Task</button>
+        </form>
+
+        <!-- Below div will be Created & Deleted using JS -->
+        <!-- <div id="task">
+          <div>
+            <p>Task Title</p>
+            <span>Task Description</span>
+          </div>
+          <i
+            id="deleteBtn"
+            class="iTag fa-regular fa-trash-can"
+            onclick="deleteFunc"
+          ></i>
+        </div> -->
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/106483eca5.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

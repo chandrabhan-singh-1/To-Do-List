@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: rgb(241, 255, 246);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font: 800 3.5rem Times;
+  text-align: center;
+  margin-block: 1rem 0rem;
+}
+
+.main {
+  width: 70%;
+  min-height: 100vh;
+  background-color: rgb(255, 251, 244);
+  box-sizing: border-box;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#title,
+#description {
+  margin-block: 1rem;
+  padding-inline: 0.8rem;
+  padding-block: 1rem;
+  font: 200 1.3rem Georgia;
+  border: 2px solid rgba(127, 255, 212, 0.804);
+  border-radius: 10px;
+  outline: none;
+}
+
+#submitBtn {
+  padding: 0.6rem 1.8rem;
+  margin-top: 0.8rem;
+  margin-bottom: 2rem;
+  align-self: center;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(188, 240, 137);
+  font: 500 1.3rem "Gill Sans";
+  cursor: pointer;
+}
+#submitBtn:hover {
+  background-color: rgb(75, 72, 72);
+  color: rgb(188, 240, 137);
+}
+
+#task {
+  background-color: aliceblue;
+  margin: 0.7rem 0;
+  align-self: center;
+  box-sizing: border-box;
+  padding: 1.2rem 1.5rem;
+  display: flex;
+  width: 100%;
+  border-radius: 10px;
+}
+
+#task > div {
+  width: 100%;
+
+  > p {
+    margin-bottom: 0.5rem;
+    font: 900 1.3rem Verdana;
+    /* font-family: ; */
+  }
+}
+
+.iTag {
+  font-size: 1.8rem;
+  align-self: center;
+  cursor: pointer;
+  /* color: red; */
+}
+
+i:hover {
+  color: rgb(253, 163, 163);
+}
