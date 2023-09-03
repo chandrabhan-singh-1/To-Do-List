@@ -1,6 +1,6 @@
 # To-Do-List
 
-##Created this To-Do List using pure HTML CSS &amp; JS
+## Created this To-Do List using pure HTML CSS &amp; JS
 
 **I have used local storage to store the To-Do Tasks/Data.**
 
